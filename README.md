@@ -18,17 +18,13 @@ files and folders.
 }
 ```
 ### Read Users
-- GET all users
-- /users
+- GET all users - GET /users
 
-- GET a specific user
-- /users/:id
+- GET a specific user - GET /users/:id
 - Example GET /users/1
-
 
 ### Update User
 - POST /users/:id 
-- /users
 - Example POST /users/1
 - Example Request Body
 ```javascript
