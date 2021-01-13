@@ -38,3 +38,11 @@ files and folders.
 ### Delete User
 - DELETE /users/:id
 - Example DELETE /users/1
+
+
+## Running in Docker
+
+- docker build -t <your_name>/<app_name>:latest .
+- docker run -p 8080:3000 <your_name>/<app_name>
+
+
