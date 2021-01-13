@@ -4,9 +4,8 @@
 `npm start` to run server
 
 ## Create User
-POST 
-/users
-Example Request Body
+- POST /users
+- Example Request Body
 ```javascript
 {
     "first_name": "Bob",
@@ -15,19 +14,19 @@ Example Request Body
 }
 ```
 ### Read Users
-GET all users
-/users
+- GET all users
+- /users
 
-GET a specific user
-/users/:id
-Example GET /users/1
+- GET a specific user
+- /users/:id
+- Example GET /users/1
 
 
 ### Update User
-POST /users/:id 
-/users
-Example POST /users/1
-Example Request Body
+- POST /users/:id 
+- /users
+- Example POST /users/1
+- Example Request Body
 ```javascript
 {
     "first_name": "Bob_changed_name",
@@ -37,5 +36,5 @@ Example Request Body
 ```
 
 ### Delete User
-DELETE /users/:id
-Example DELETE /users/1
+- DELETE /users/:id
+- Example DELETE /users/1
