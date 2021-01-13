@@ -1,4 +1,8 @@
 # simpleCrud_Express for Users CRUD
+
+Note the Users table is an array in App memory. MongoDB can be used for the same. 
+Also, this app was created using the express app generator - https://expressjs.com/en/starter/generator.html. It contains some redundant 
+files and folders. 
 ## Setup 
 `npm install`
 `npm start` to run server
