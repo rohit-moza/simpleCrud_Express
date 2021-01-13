@@ -1,9 +1,9 @@
 # simpleCrud_Express for Users CRUD
-##Setup 
+## Setup 
 `npm install`
 `npm start` to run server
 
-##Create User
+## Create User
 POST 
 /users
 Example Request Body
